@@ -3,16 +3,11 @@
 ## Instalasi Dependensi
 npm install
 
-shell
-Copy code
-
 ## Menjalankan Server Pengembangan
 npm run dev
 
-markdown
-Copy code
 
-## Penjelasan Singkat tentang Algoritma Tarjan
+# Penjelasan Singkat tentang Algoritma Tarjan
 
 Algoritma Tarjan adalah algoritma yang digunakan untuk menemukan komponen-komponen terhubung kuat (Strongly Connected Components) dalam sebuah graf berarah. Berikut ini adalah penjelasan singkat tentang algoritma Tarjan:
 
@@ -41,16 +36,22 @@ Dalam konteks graf, terdapat beberapa jenis sisi (edges) yang umumnya digunakan,
 Referensi:
 - [Wikipedia - Tarjan's Strongly Connected Components Algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)
 
-Setup penuh menggunakan boiler plate dari [react-golang-full-stack](https://github.com/orstendium/react-golang-full-stack). Repository ini telah memodifikasi create-react-app menggunakan Golang.
 
 Framework yang digunakan (jika ada):
-- N/A
+- Setup penuh menggunakan boiler plate dari [react-golang-full-stack](https://github.com/orstendium/react-golang-full-stack). Repository ini telah memodifikasi create-react-app menggunakan Golang + React.
 
 Library yang digunakan (jika ada):
-- React
-- react-graph-vis
+- BE: encoding/json, log, net/http, os, path/filepath, strings, github.com/gorilla/mux, fmt
+- FE: react-graph-vis
 
 Manfaat penggunaan library:
-- React: Mempermudah pengembangan antarmuka pengguna yang responsif dan interaktif.
-- react-graph-vis: Menyediakan komponen graf yang mudah digunakan
+- encoding/json: Library ini digunakan untuk encoding dan decoding data dalam format JSON. Dalam konteks proyek ini, digunakan untuk mengubah data menjadi format JSON sebelum dikirim sebagai respons dari API.
+- log: Library ini digunakan untuk mencatat pesan log. Dalam konteks proyek ini, digunakan untuk mencatat pesan log terkait proses server HTTP.
+- net/http: Library ini menyediakan fungsi dan tipe data yang diperlukan untuk mengimplementasikan server HTTP. Dalam konteks proyek ini, digunakan untuk menangani permintaan HTTP dan mengirimkan respons.
+- os: Library ini menyediakan fungsi untuk berinteraksi dengan sistem operasi. Dalam konteks proyek ini, digunakan untuk mendapatkan nilai dari variabel lingkungan seperti nama pengguna.
+- path/filepath: Library ini digunakan untuk memanipulasi jalur file dan direktori. Dalam konteks proyek ini, digunakan untuk mendapatkan jalur absolut ke direktori proyek.
+- strings: Library ini menyediakan fungsi untuk memanipulasi string. Dalam konteks proyek ini, digunakan untuk membagi string menjadi potongan-potongan yang lebih kecil.
+- github.com/gorilla/mux: Library ini adalah router HTTP yang kuat dan fleksibel untuk Go. Dalam konteks proyek ini, digunakan untuk menentukan rute API dan menangani permintaan yang masuk.
+- fmt: Library ini digunakan untuk format input dan output. Dalam konteks proyek ini, digunakan untuk mencetak pesan ke konsol.
+- react-graph-vis menyediakan komponen graf yang mudah digunakan untuk memvisualisasikan graf secara visual dalam aplikasi React.
 
