@@ -1,3 +1,7 @@
+# Informasi
+Program akan menerima input berupa edges di dalam node, lalu menampilkan SCC pada graf dengan pewarnaan yang berbeda.
+
+Pada kasus bridge, graf diasumsikan tidak berarah. Warna biru pada edge menunjukkan bridge dan warna merah menunjukkan edge biasa.
 # Cara Penggunaan Program/Web
 
 ## Instalasi Dependensi

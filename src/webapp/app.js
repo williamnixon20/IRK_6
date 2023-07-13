@@ -124,6 +124,9 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="title">Graph Visualization</h1>
+      <h2>Program akan menerima input berupa edges di dalam node, lalu menampilkan SCC pada graf dengan pewarnaan yang berbeda.
+
+        Pada kasus bridge, graf diasumsikan tidak berarah. Warna biru pada edge menunjukkan bridge dan warna merah menunjukkan edge biasa.</h2>
       <div className="input-section">
         <label htmlFor="input" className="input-label">
           Graph Input:
